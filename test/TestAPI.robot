@@ -9,3 +9,12 @@ Requisitar a listagem de todos os livres(GET em todos os Livros)
     Conferir STATUS CODE        200
     Conferir o reason           OK
     Conferir se retornou uma lista com "200" livro
+
+Buscar um livro especifico(GET em um livro especifico)
+    Requisitar o livro "15"
+    Conferir STATUS CODE        200
+    Conferir o reason           OK
+    Conferir se retorna todos os dados corretos do livro 15
+
+Cadastrar um livro(POST)
+    Cadastrar um livro
